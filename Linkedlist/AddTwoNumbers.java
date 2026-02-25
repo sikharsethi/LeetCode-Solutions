@@ -1,4 +1,4 @@
-package Medium;
+package Linkedlist;
 
 class ListNode {
       int val;
