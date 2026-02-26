@@ -12,14 +12,16 @@ public class BinarySearch {
         int right = nums.length - 1;
 
         while(left <= target) {
-            int mid = left + (right - left) / 2;
+            int mid = left + (right - left) / 2; //Calculate middle index
 
             if(nums[mid] == target) {
-                return mid;
+                return mid; //found target
+
             } else if (nums[mid] < target) {
-                left = mid + 1;
+                left = mid + 1; //Target is in the right half
+
             } else {
-                right = mid - 1;
+                right = mid - 1; //Target is in the left half
             }
             
         }
