@@ -1,3 +1,4 @@
+package Arrays;
 class RemoveDuplicateArray {
     public int removeDuplicateArray(int[] nums) {
         if(nums.length == 0) return 0;
