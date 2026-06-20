@@ -1,3 +1,3 @@
 # LeetCode-Solutions
 
-practising DSA in java for probmlem solving skill
+practising DSA in java improving probmlem solving skill
