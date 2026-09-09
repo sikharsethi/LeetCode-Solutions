@@ -1,4 +1,5 @@
--- Write your PostgreSQL query statement below
+/* Write your PL/SQL query statement below */
+
 select w1.id
 from weather w1
 JOIN weather w2
