@@ -1,4 +1,4 @@
-/* Write your PL/SQL query statement below */
+-- Write your PostgreSQL query statement below
 
 WITH RankedSalaries AS (
     SELECT 
@@ -12,5 +12,3 @@ WITH RankedSalaries AS (
 SELECT Department, Employee, Salary
 FROM RankedSalaries
 WHERE rnk = 1;
-
-
