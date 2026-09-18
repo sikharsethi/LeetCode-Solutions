@@ -1,4 +1,7 @@
-/* Write your PL/SQL query statement below */
+-- Write your PostgreSQL query statement below
 
-select max(salary) AS SecondHighestSalary from employee 
-where salary < (select max(salary) from employee);
+Select (
+    select distinct salary from 
+    employee order by salary desc
+    limit 1 offset 1
+) AS SecondHighestSalary;
