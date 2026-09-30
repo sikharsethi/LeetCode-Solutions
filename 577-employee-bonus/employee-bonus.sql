@@ -1,4 +1,4 @@
-/* Write your PL/SQL query statement below */
+-- Write your PostgreSQL query statement below
 Select e.name, b.bonus
 from employee e 
 left join bonus b on e.empId = b.empId
